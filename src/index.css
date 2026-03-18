@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-oat: #FDFBF9;
+  --color-soft-black: #2A2A2A;
+  --color-pastel-pink: #FCE7F3;
+  --color-sage: #9CA986;
+  --color-blush: #E6B8B8;
+  --color-cream: #F2E8DF;
+}
+
+@layer base {
+  body {
+    @apply bg-oat text-soft-black font-sans antialiased;
+  }
+}
+
+.glass-card {
+  @apply bg-white/40 backdrop-blur-md border border-white/20 rounded-3xl;
+}
