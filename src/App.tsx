@@ -8,9 +8,9 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Eye, Headphones, Wind, Hand, ChevronRight } from 'lucide-react';
 
 const COLORS = [
-  { name: 'Sage Green', hex: '#9CA986', id: 'sage' },
-  { name: 'Blush Pink', hex: '#E6B8B8', id: 'blush' },
-  { name: 'Cream White', hex: '#F2E8DF', id: 'cream' },
+  { name: 'Sage Green', hex: '#9CA986', id: 'sage', image: '/vision-sage.png' },
+  { name: 'Blush Pink', hex: '#E6B8B8', id: 'blush', image: '/vision-blush.png' },
+  { name: 'Cream White', hex: '#F2E8DF', id: 'cream', image: '/vision-cream.png' },
 ];
 
 const FEATURES = [
@@ -88,7 +88,7 @@ export default function App() {
                   {/* Placeholder for the Vision Pro Image */}
                   <div className="relative group">
                     <img
-                      src={`https://picsum.photos/seed/vision-${selectedColor.id}/1200/800`}
+                      src={selectedColor.image}
                       alt={`Apple Vision Pro in ${selectedColor.name}`}
                       className="object-contain w-full h-full max-h-[500px] drop-shadow-2xl rounded-2xl"
                       referrerPolicy="no-referrer"
@@ -161,7 +161,7 @@ export default function App() {
               <div className="absolute top-[-50%] left-[-50%] w-[200%] h-[200%] bg-[radial-gradient(circle,white_0%,transparent_70%)]" />
             </div>
             <h2 className="text-3xl md:text-4xl font-light mb-6 relative z-10">Ready for a new perspective?</h2>
-            <p className="text-oat/60 mb-10 relative z-10">Experience the future of spatial computing with Vision Pro Aura.</p>
+            <p className="text-oat/60 mb-10 relative z-10">Experience the future of spatial computing with Vision Aura.</p>
             <button className="px-8 py-4 bg-oat text-soft-black rounded-full font-medium flex items-center gap-2 mx-auto hover:scale-105 transition-transform relative z-10">
               Reserve Yours <ChevronRight size={18} />
             </button>
