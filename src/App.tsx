@@ -8,9 +8,9 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Eye, Headphones, Wind, Hand, ChevronRight } from 'lucide-react';
 
 const COLORS = [
-  { name: 'Sage Green', hex: '#9CA986', id: 'sage', image: '/vision-sage.png' },
-  { name: 'Blush Pink', hex: '#E6B8B8', id: 'blush', image: '/vision-blush.png' },
-  { name: 'Cream White', hex: '#F2E8DF', id: 'cream', image: '/vision-cream.png' },
+  { name: 'Sage Green', hex: '#9CA986', id: 'sage', image: '/sage green vision pro.png' },
+  { name: 'Blush Pink', hex: '#E6B8B8', id: 'blush', image: '/blush pink vision pro.png' },
+  { name: 'Cream White', hex: '#F2E8DF', id: 'cream', image: '/cream white vision pro.png' },
 ];
 
 const FEATURES = [
