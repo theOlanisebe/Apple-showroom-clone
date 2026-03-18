@@ -161,7 +161,7 @@ export default function App() {
               <div className="absolute top-[-50%] left-[-50%] w-[200%] h-[200%] bg-[radial-gradient(circle,white_0%,transparent_70%)]" />
             </div>
             <h2 className="text-3xl md:text-4xl font-light mb-6 relative z-10">Ready for a new perspective?</h2>
-            <p className="text-oat/60 mb-10 relative z-10">Experience the future of spatial computing with Vision Aura.</p>
+            <p className="text-oat/60 mb-10 relative z-10">Experience the future of spatial computing with Vision Pro Aura.</p>
             <button className="px-8 py-4 bg-oat text-soft-black rounded-full font-medium flex items-center gap-2 mx-auto hover:scale-105 transition-transform relative z-10">
               Reserve Yours <ChevronRight size={18} />
             </button>
